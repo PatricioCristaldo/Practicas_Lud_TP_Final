@@ -1,0 +1,113 @@
+/* HEADER */
+.headerContainer {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+                                                  
+header {
+    background: var(--quinary-color);
+    color: #333;
+    padding-top: 20px;
+    min-height: 70px;
+}
+header h1 {
+    font-family: "AGENCYFB";
+    color: var(--tertiary-color);
+    font-weight: normal;
+}
+header a {
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px 0 15px;
+    font-family: "GADUGI";
+}
+
+header .quote-button {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: "GADUGI";
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Tablet view */
+    .headerContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    header {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    header ul {
+        text-align: center;
+        padding: 0;
+    }
+    header li {
+        display: block;
+        padding: 10px 0;
+    }
+    header .quote-button {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile view */
+    .headerContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    header {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    header ul {
+        text-align: center;
+        padding: 0;
+    }
+    header li {
+        display: block;
+        padding: 8px 0;
+    }
+    header .quote-button {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+}

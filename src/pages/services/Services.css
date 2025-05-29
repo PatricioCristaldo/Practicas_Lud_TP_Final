@@ -1,0 +1,56 @@
+
+/* SERVICES SECTION */
+
+.services-section {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.services-section h2 {
+  font-size: 36px;
+  margin-left: 10%;
+  font-family: "GADUGI";
+  font-weight: bold;
+}
+
+.services-section span {
+  font-size: 36px;
+  margin-left: 10%;
+  color: #0b63ce;
+  font-family: "GADUGI";
+  font-weight: bold;
+}
+
+.servicesCards {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serviceCard {
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.279);
+  width: 50vw;
+  text-align: center;
+}
+
+.serviceCard h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: "GADUGI";
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.serviceCard p {
+  font-size: 16px;
+  color: #3f3939;
+  margin-bottom: 20px;
+  font-family: "GADUGI";
+}

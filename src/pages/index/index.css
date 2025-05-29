@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@font-face {
+    font-family: 'AGENCYFB';
+    src: url('../../../public/fonts/AGENCYB.TTF') format('tff');
+    font-weight: normal;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'GADUGI';
+    src: url('../../../public/fonts/gadugi-bold.ttf') format('tff');
+    font-weight: normal;
+    font-style: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #ef2078;
+    --secondary-color: #91a7d9;
+    --tertiary-color: #1b4b87;
+    --quaternary-color: #DBCE16;
+    --quinary-color: #000a18;
+}
+
+body {
+    line-height: 1.6;
+}
+
+
