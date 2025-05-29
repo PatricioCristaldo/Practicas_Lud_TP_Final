@@ -6,13 +6,13 @@ function Header() {
     <header>
         <div className="headerContainer">
             <div className="logo">
-                <h1>Equipo Alvapa</h1>
+               <a href="/"><h1>Weekly Game Fest</h1> </a> 
             </div>
             <nav>
                 <ul>
                     
                     <li><a href="https://github.com/PatricioCristaldo?tab=repositories">Projectos</a></li>
-                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#services">Actividades</a></li>
                     <li><a href="#about">Sobre nosotros</a></li>
                 </ul>
             </nav>

@@ -22,7 +22,7 @@ export default function Main() {
             image: "images/Chander.png",
             alt: "Chander",
             name: "Chander",
-            text: "Modelador 3D profesional. Product Owner del evento, negociante directo con publishers. Emprendedor y responsable."
+            text: "Modelador 3D profesional. Product Owner del evento, negociante experto con publishers. Emprendedor y responsable."
         }
     ];
 
@@ -50,12 +50,10 @@ export default function Main() {
                         <p style={{ color: "#1b4b87" }}>
                             Nos dedicamos a organizar eventos lúdicos, este año tenemos algo muy especial preparado, te lo contamos abajo ⬇️
                         </p>
-                        <a
-                            href="mailto:patricio_cristaldo@outlook.com?subject=Consulta&body=Hola, me gustaría contarte acerca de mi proyecto..."
-                            className="cta-button"
-                        >
-                            AGENDA DEL EVENTO
-                        </a>
+<br />
+                         <Link to="/portfolio" className="cta-button">
+                        CRONOGRAMA DEL EVENTO
+                    </Link> 
                     </div>
                     <div className="hero-image">
                         <img src="images/Fondo2.png" alt="Patricio Cristaldo"></img>
@@ -64,66 +62,62 @@ export default function Main() {
             </section>
             <section className="clients" id="projects">
                 <ul>
-                    <li>UTN</li>
-                    <li>RUNDO</li>
-                    <li>SOFTWARE FACTORY</li>
-                    <li>DIGITAL HOUSE</li>
+                    <li>Videojuegos</li>
+                    <li>Realidad virtual</li>
+                    <li>Esports</li>
+                    <li>Desarrollo</li>
                 </ul>
             </section>
 
             <section className="services-section" id="services">
-                <h2>Mis grandes </h2>
-                <span>servicios</span>
+                <h2>Algunas de las actividades</h2>
+                <span>del evento</span>
                 <div className="mainContainer">
                     <div className="services-cards">
                         <div className="service-card">
-                            <h3>Diseño web</h3>
+                            <h3>Diseño de videojuegos</h3>
                             <p>
-                                Diseño de páginas web de distinto tipo; ecommerce, portfolio,
-                                landing, etc. Consultas en el botón debajo.
+                                Desarrollo y producción de videojuegos para personas con o sin conocimientos previos.
                             </p>
                            <Link to="/services" className="learn-more-button">
                                 Saber más
                             </Link>
                         </div>
                         <div className="service-card">
-                            <h3>UX/UI</h3>
+                            <h3>Salón de juegos de Mesa</h3>
                             <p>
-                                Enfoque en una buena experiencia e interfaz de usuario, diseño
-                                amigable, intuitivo y fácil de usar.
+                                Juegos de rol, dungeon masters y demás juegos de mesa para principiantes y avanzados.
                             </p>
                            <Link to="/services" className="learn-more-button">
                                 Saber más
                             </Link>
                         </div>
                         <div className="service-card">
-                            <h3>Automatización</h3>
+                            <h3>Referentes del gaming</h3>
                             <p>
-                                Desarrollo de funciones que automatizan procesos en tu web, en
-                                base a ciertos disparadores personalizables.
+                                Algunos de los referentes más grandes de la industria nos acompañaran en este evento.
                             </p>
                             <Link to="/services" className="learn-more-button">
                                 Saber más
                             </Link>
                         </div>
                     </div>
-                    <Link to="/portfolio" className="portfolio-button">
+                    {/* <Link to="/portfolio" className="portfolio-button">
                         VER MI PORTFOLIO
-                    </Link>
+                    </Link> */}
                 </div>
             </section>
 
             <section className="about" id="about">
                 <div className="mainContainer">
                     <div className="about-image">
-                        <img src="images/Ejemplo2.png" alt="Patricio Cristaldo"></img>
+                        <img src="images/videojuegos2.jpg" alt="Patricio Cristaldo"></img>
                     </div>
                     <div className="about-text">
-                        <h2>Un poco sobre nosotros</h2>
+                        <h2>Formulario de contacto</h2>
                         <p>
-                            Soy desarrollador web full stack, actualmente me encuentro
-                            realizando una diplomatura en desarrollo web con la Universidad
-                            Tecnológica Nacional para potenciar mí conocimiento y habilidades.
+                            Te dejamos nuestro formulario de contacto, si tienes alguna duda o quieres saber más sobre el evento, no dudes en contactarnos.
+                            También podemos hacer un presupuesto personalizado para tu evento.
                         </p>
                         <Link to="/about" className="cta-button">
                             MÁS INFORMACIÓN

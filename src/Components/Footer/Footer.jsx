@@ -37,7 +37,7 @@ function Footer() {
                 />
                 <button type="submit" style={{ cursor: "pointer" }}>ENVIAR</button>
             </form>
-            <p>&copy; 2024 All rights reserved. <strong>P. CRISTALDO</strong></p>
+            <p>&copy; 2025 All rights reserved. <strong>P. CRISTALDO</strong></p>
         </footer>
     );
 }

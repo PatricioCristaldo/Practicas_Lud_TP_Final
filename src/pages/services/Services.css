@@ -3,13 +3,14 @@
 
 .services-section {
   padding: 50px 0;
-  background: #fff;
+  background: var(--quaternary-color);
 }
 
 .services-section h2 {
   font-size: 36px;
   margin-left: 10%;
   font-family: "GADUGI";
+  color: #fff;
   font-weight: bold;
 }
 
