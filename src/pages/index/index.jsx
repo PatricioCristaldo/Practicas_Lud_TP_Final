@@ -13,7 +13,7 @@ import { Portfolio } from '../portfolio/Portfolio';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router basename="/tp-final-2-react-utn">
+    <Router basename="/Practicas_Lud_TP_Final">
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
