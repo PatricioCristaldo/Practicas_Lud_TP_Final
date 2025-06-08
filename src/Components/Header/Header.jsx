@@ -11,7 +11,7 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    
+                    <li><a href="/Practicas_Lud_TP_Final/">Inicio</a></li>
                     <li><Link to="/portfolio" >
                                                     Proyectos
                                                 </Link></li>
