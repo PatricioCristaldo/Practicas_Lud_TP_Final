@@ -1,7 +1,7 @@
-# Trabajo Práctico Final Nº 2 - Diplomatura UTN
+# Trabajo Final - Producción y prácticas lúdicas - UNPAZ
 Despliegue del proyecto en la siguiente URL: https://patriciocristaldo.github.io/Practicas_Lud_TP_Final/
 
-Página Tipo Portfolio realizada con REACT. 
+Página Web promocional a evento ficticio realizada con REACT. 
 
 Totalmente funcional, cada botón realiza alguna acción; como redirecciones con enlaces internos y externos. 
 
