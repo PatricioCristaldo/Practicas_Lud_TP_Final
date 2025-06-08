@@ -1,5 +1,5 @@
 # Trabajo Práctico Final Nº 2 - Diplomatura UTN
-Despliegue del proyecto en la siguiente URL: https://patriciocristaldo.github.io/tp-final-2-react-utn/
+Despliegue del proyecto en la siguiente URL: https://patriciocristaldo.github.io/Practicas_Lud_TP_Final/
 
 Página Tipo Portfolio realizada con REACT. 
 
