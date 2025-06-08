@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/tp-final-2-react-utn/', 
+  base: '/Practicas_Lud_TP_Final/', 
 });
