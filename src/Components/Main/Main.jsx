@@ -118,7 +118,7 @@ export default function Main() {
                         <p>
                             Llenando el siguiente formulario, podrás dejar tus comentarios sobre el evento. Tu opinión nos ayuda un montón a seguir mejorando y creciendo, además participas de un sorteo para ganar grandes premios!
                         </p>
-                        <a href="https://github.com/PatricioCristaldo" className="cta-button"> 
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSen3q2M6yWesYWPu3xUZFC8DteRbMoUCuO0h314oz7FdSEP3g/viewform" target="_blank" className="cta-button"> 
                             Dejar opinión
                         </a>
                     </div>
