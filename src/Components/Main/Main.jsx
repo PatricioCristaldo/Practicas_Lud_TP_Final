@@ -51,7 +51,7 @@ export default function Main() {
                             Nos dedicamos a organizar eventos lúdicos, este año tenemos algo muy especial preparado, te lo contamos abajo ⬇️
                         </p>
 <br />
-                         <Link to="/portfolio" className="cta-button">
+                         <Link to="/schedule" className="cta-button">
                         CRONOGRAMA DEL EVENTO
                     </Link> 
                     </div>
@@ -114,14 +114,13 @@ export default function Main() {
                         <img src="images/videojuegos2.jpg" alt="Patricio Cristaldo"></img>
                     </div>
                     <div className="about-text">
-                        <h2>Formulario de contacto</h2>
+                        <h2>Contanos que te pareció el evento</h2>
                         <p>
-                            Te dejamos nuestro formulario de contacto, si tienes alguna duda o quieres saber más sobre el evento, no dudes en contactarnos.
-                            También podemos hacer un presupuesto personalizado para tu evento.
+                            Llenando el siguiente formulario, podrás dejar tus comentarios sobre el evento. Tu opinión nos ayuda un montón a seguir mejorando y creciendo, además participas de un sorteo para ganar grandes premios!
                         </p>
-                        <Link to="/about" className="cta-button">
-                            MÁS INFORMACIÓN
-                        </Link>
+                        <a href="https://github.com/PatricioCristaldo" className="cta-button"> 
+                            Dejar opinión
+                        </a>
                     </div>
                 </div>
             </section>

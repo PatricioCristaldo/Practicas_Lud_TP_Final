@@ -8,6 +8,7 @@ import Main from '../../Components/Main/Main';
 import Footer from '../../Components/Footer/Footer';
 import About from '../../pages/about/About';
 import { Services } from '../services/Services';
+import { Schedule } from '../portfolio/Schedule';
 import { Portfolio } from '../portfolio/Portfolio';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Main />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
+        <Route path="schedule" element={<Schedule />} />
         <Route path="portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />

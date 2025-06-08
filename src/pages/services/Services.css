@@ -23,17 +23,17 @@
 }
 
 .servicesCards {
-  margin-top: 20px;
+
   display: flex;
-  margin-bottom: 20px;
-  flex-direction: column;
+  background-color: var(--quaternary-color);
+  flex-direction: wrap;
   align-items: center;
 }
 
 .serviceCard {
   background: #f9f9f9;
   border-radius: 10px;
-  margin: 1%;
+  margin: 2%;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.279);
   width: 50vw;
